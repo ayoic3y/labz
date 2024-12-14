@@ -1,0 +1,51 @@
+div {
+    width: 1500px;
+    height: 700px;
+    border: 1px solid black;
+    position: relative;
+}
+.bg {
+    display: block;
+    width: 1500px;
+    height: 700px;
+}
+.superman {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+.asteroid {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+.pl3 {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    z-index: 4;
+}
+.pl2 {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    z-index: 2;
+}
+.pl1 {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    z-index: 1;
+}
+.ufo {
+    position: absolute;
+    left: 18%;
+    bottom: 15%;
+    z-index: 5;
+}
+.rocket {
+    position: absolute;
+    left: 25%;
+    top: 38%;
+    z-index: 3;
+}

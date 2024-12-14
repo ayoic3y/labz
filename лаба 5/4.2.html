@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let lang = prompt('ru or by?'), week;
+        switch(lang) {
+            case 'ru':
+                week = ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'];
+                break;
+            case 'by':
+                week = ['панядзелак', 'ауторак', 'серада', 'чацвер', 'пятнiца', 'субота', 'нядзеля'];
+                break;
+            default:
+                alert('такого языка нет');     
+        }
+        alert(week.join(', '));
+    </script>
+</body>
+</html>

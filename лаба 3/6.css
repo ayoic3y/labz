@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f8f8;
+    display: flex;   
+    justify-content: center;
+}
+form {
+    margin-top: 150px;
+    height: 320px;
+    width: 320px;
+    padding: 7.5px 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: grid;    
+}   
+input {
+   margin: 7.5px 0px;
+}
+.button {
+    background-color: #1cdc11;
+    margin: 7.5px 0px;
+    color: white;
+}
+.button:hover {
+    background-color: #14a20a;
+    cursor: pointer;
+}

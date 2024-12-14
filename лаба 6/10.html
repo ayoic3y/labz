@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./10.css">
+        <title>task 10</title>
+    </head>
+    <body>
+        <div id="ship">
+            <div id="parus1"></div>
+            <div id="parus2"></div>
+            <div id="mast"></div>
+            <button id="button">Отправить в работу</button>
+        </div>
+        <script>
+            let button = document.getElementById('button')
+            let mast = document.getElementById('mast')
+            let parus1 = document.getElementById('parus1')
+            let parus2 = document.getElementById('parus2')
+            let ship = document.getElementById('ship')
+            button.addEventListener('click', function() {
+                button.style.webkitBorderBottomLeftRadius = '80px'
+                button.style.webkitBorderBottomRightRadius = '80px'
+                button.textContent = 'Поплыли!'
+                mast.style.transform = 'rotate(90deg)'
+                parus1.style.transform = 'scale(2, 2.5)'
+                parus2.style.transform = 'scale(1, 2.5)'
+                ship.style.left = '2000px'
+            })
+        </script>
+    </body>
+</html>

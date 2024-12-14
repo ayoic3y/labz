@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>задача 12</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Карта сокровищ</h1>
+    <hr />
+    <img src="./task12.jpg" width="640" height="400" alt="map" usemap="#сокровища">
+    <map name="сокровища">
+    <a title="клад"><area shape="circle" coords="356,142,40" onclick="changeprogress(100)"></a>
+    <a title="осьминог"><area shape="circle" coords="106,330,40" onclick="changeprogress(66)"></a>
+    <a title="акула"><area shape="circle" coords="549,55,40" onclick="changeprogress(33)"></a>
+    <a title="корабль"><area shape="circle" coords="314,352,40" onclick="changeprogress(0)"></a>
+    </map>
+    <p>Пройдено:&nbsp; <progress id="progress" max="100" value="60"></progress></p>
+
+    <hr />
+    <p>www.bsuir.by</p>
+  </body>
+  <script type="text/javascript">
+     function changeprogress(arg) {
+       var progress = document.getElementById("progress")
+       progress.value = arg
+     }
+    </script>
+</html>

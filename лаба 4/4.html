@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid black;
+            height: 20px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        .first {
+            overflow: hidden;
+            transition: all 0.5s;
+        }
+        .first:hover {           
+            height: 92px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        .second {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            transition: all 0.5s;
+        }
+        .second:hover {
+            white-space: wrap;
+            height: 150px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, dolor laudantium impedit quo non aspernatur nam ipsum vero accusantium voluptate minima temporibus id et sed ex blanditiis? Autem, quasi a?</div>
+    <div class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia libero eius fugit, nam magnam nobis similique asperiores praesentium perspiciatis aut sequi aspernatur dicta ipsam deserunt nisi placeat. Voluptas labore porro velit odio dolorem eveniet quia? Officiis vero doloribus maiores, ducimus nisi tenetur asperiores expedita aliquid. Ab expedita sapiente mollitia ducimus, laborum perferendis est animi sit adipisci similique voluptates magnam.</div>
+</body>
+</html>

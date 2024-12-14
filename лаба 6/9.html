@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div {
+        position: relative;
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+}
+button {
+    position: absolute;
+    bottom: 22%;
+    left: 45%;
+    z-index: 5;
+    border-radius: 5px;
+    background-color: bisque;
+}
+.bg {
+    display: block;
+    width: 800px;
+    height: 500px;
+}
+.pl3 {
+    position: absolute;
+    left: 35%;
+    bottom: 0%;
+    z-index: 4;
+}
+.pl2 {
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    z-index: 2;
+}
+.pl1 {
+    position: absolute;
+    left: 37%;
+    top: 24%;
+    z-index: 1;
+}
+.asteroid {
+    position: absolute;
+    top: 35%;
+    right: 59%;
+    z-index: 5;
+}
+.ufo {
+    position: absolute;
+    left: 28%;
+    bottom: 35%;
+    z-index: 5;
+}
+.rocket {
+    position: absolute;
+    left: 22%;
+    top: 40%;
+    z-index: 3;
+}
+    </style>
+</head>
+<body>
+<div>
+    <img class="bg" src="./img/bg.jpg" alt="" width="800px" height="500px">
+    <img class="pl1" src="./img/planet-1.png" alt=""><img class="pl2" src="./img/planet-2.png" alt=""><img class="pl3" src="./img/planet-3.png" alt="">
+
+    <img id="ast" src="./img/asteroid.png" class="asteroid" alt="">
+    <img id="rock" src="./img/spaceship.png" class="rocket" alt="">
+    <img id="ufo" src="./img/ufo.png" class="ufo" alt="">
+
+    <button>Полетели!</button>
+</div>
+     
+    <script src="./9.js"></script>
+</body>
+</html>

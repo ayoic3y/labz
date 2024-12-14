@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Trebuchet MS;
+            color: rgb(96, 96, 96);
+            font-size: 25px;
+        }
+        .cont {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;         
+            gap: 10px;
+        }
+        .card {
+            background-color: rgb(252, 187, 165);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 15px 15px 25px 15px;
+            text-align: center;
+        }
+        .g1 {
+            width: 100%;
+            height: 60px;
+            background-color: #eeaeef;
+        }
+        .g2 {
+            width: 100%;
+            height: 60px;
+            background-color: #4b9bd1;
+        }
+        .g3 {
+            width: 100%;
+            height: 60px;
+            background-color: #67c45a;
+        }
+        .text {
+            font-family: Georgia;
+            color: rgb(62,61,61);
+            font-size: 13px;
+        }
+        h2 {
+            font-family: Trebuchet MS;
+            font-size: 20px;
+            color: rgb(96, 96, 96);
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid + Flexbox = &#128158;</h1>
+<div class="cont">
+    <div class="card">
+       <div class="cardtitle"><h2>Title - Card 1</h2></div>
+       <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ullam.</p>
+       <div class="g1"></div>
+    </div>
+    <div class="card">
+        <div class="cardtitle"><h2>Title - Card 2</h2></div>
+        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus nemo, hic nobis rem nostrum dolorem repellat alias distinctio est. Sunt quia excepturi at explicabo magnam pariatur nesciunt molestiae recusandae.</p>
+        <div class="g2"></div>
+    </div>
+    <div class="card">
+       <div class="cardtitle"><h2>Title - Card 3</h2></div>
+       <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, hic.</p>
+       <div class="g3"></div>
+    </div>
+</div>
+</body>
+</html>

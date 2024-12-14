@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(40px,auto));
+            grid-template-rows: repeat(3,minmax(60px,auto));
+            grid-gap: 5px;
+        }
+       .cont div {
+        border: 1px solid black;
+       }
+       @media (max-width:770px) {
+       .cont {
+        grid-template-columns: repeat(1,minmax(40px,auto));
+        grid-template-rows: repeat(6,minmax(60px,auto));
+       }
+       }
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo error facilis optio accusantium cum voluptas veritatis iure unde esse exercitationem neque sint voluptatum officiis dolorum deleniti sunt consequuntur ipsa deserunt nulla amet quod ex commodi, corporis voluptates. Quibusdam quis eos fuga voluptates! Voluptatum ab corrupti, reiciendis nostrum iure hic quam expedita ipsa assumenda recusandae, odit dignissimos esse fugit, deserunt at? Aliquam autem accusamus voluptatem itaque ratione a, ducimus nostrum, ea facere ut unde. Dolore sed dolores, iste exercitationem, omnis ducimus rem illum quos consequatur laborum, excepturi a. Commodi officiis illum magnam repellat eius quod, facere libero asperiores modi odit deserunt?</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo, praesentium laboriosam illo sed, optio impedit modi reprehenderit sit corporis omnis perferendis. Laborum accusamus similique dolorum quidem, ab aspernatur odit ipsum est? Eveniet, mollitia quidem impedit amet modi eius accusamus? Veniam modi totam enim quae nesciunt. Illo doloribus quis nemo?</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo, praesentium laboriosam illo sed, optio impedit modi reprehenderit sit corporis omnis perferendis. Laborum accusamus similique dolorum quidem, ab aspernatur odit ipsum est? Eveniet, mollitia quidem impedit amet modi eius accusamus? Veniam modi totam enim quae nesciunt. Illo doloribus quis nemo?</div>
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores laboriosam ut inventore esse, accusamus sit dolor dolorem placeat, consequatur quibusdam totam pariatur voluptates iure exercitationem odio quae. Perspiciatis natus porro labore totam quo laudantium magnam laboriosam qui, eligendi voluptates ullam excepturi nemo possimus illo nam, obcaecati nesciunt reiciendis enim voluptate.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis totam dignissimos at, illo odit tempora modi laborum, iusto voluptatibus nam vero! Quam exercitationem ullam iure facere. Earum, doloremque temporibus!</div>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis natus omnis at. Necessitatibus possimus voluptates commodi consequuntur est neque dolorum?</div>
+    </div>
+</body>
+</html>

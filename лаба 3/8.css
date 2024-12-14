@@ -1,0 +1,23 @@
+nav ul li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.main::after {
+    content: '>';
+    margin-left: 10px;
+}
+.kateg::after {
+    content: '>';
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: #0b56ea;
+}
+span {
+    color: #333;
+}
+a:hover {
+    text-decoration: underline;
+}

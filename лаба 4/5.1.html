@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+        body {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px;
+            grid-gap: 10px;
+        }
+        .russ {
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .yell1 {
+            background: linear-gradient(yellow, white);
+        }
+        .yell2 {
+            background: linear-gradient(to right,yellow,white);
+        }
+        .yell3 {
+            background: linear-gradient(to left,yellow,white);
+        }
+        .aust {
+            background: linear-gradient(to top,red 33%,white 33%,white 66%,red 66%);
+        }
+        .russ {
+            background: linear-gradient(to right,red 20%,blue 60%,white 80%,red 100%);
+        }
+    </style>
+</head>
+<body>
+
+   <div class="yell1"></div>
+   <div class="yell2"></div>
+   <div class="yell3"></div>
+   <div class="aust"></div>
+   <div class="russ"></div>
+
+</body>
+</html>

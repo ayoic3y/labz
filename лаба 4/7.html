@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+           border: 1px solid black;
+           height: 200px;
+           width: 200px;
+           margin: 30px 10px;
+        }
+        .g1 {
+            box-shadow: 10px 10px 5px grey;
+        }
+        .g2 {
+            box-shadow: 10px 10px 5px grey,-10px -10px 5px grey;
+        }
+        .g3 {
+            box-shadow: inset 5px 5px 5px grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="g1">Блок с тенью + размытие</div>
+    <div class="g2">Блок с двумя тенями</div>
+    <div class="g3">Внутренняя тень</div>
+</body>
+</html>

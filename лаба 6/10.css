@@ -1,0 +1,65 @@
+body {
+    background: violet;
+}
+
+button {
+    padding: 30px;
+    background: rgb(123, 104, 238);
+    border: none;
+    border-radius: 10px;
+    margin-top: 400px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#button {
+    transition-property: border-bottom-left-radius, border-bottom-right-radius;
+    transition-duration: 3s;
+}
+
+#mast {
+    position: absolute;
+    background: MediumSlateBlue;
+    width: 120px;
+    height: 10px;
+    top: 410px;
+    transform-origin: right;
+    transition-duration: 1.5s;
+}
+
+#parus1 {
+    position: absolute;
+    border-bottom: 40px solid white;
+    border-left: 40px solid transparent;
+    top: 355px;
+    left: 50px;
+    transform: scale(2, 0);
+    transition-duration: 1.5s;
+    transform-origin: bottom;
+    transition-delay: 1s;
+}
+
+#parus2 {
+    position: absolute;
+    border-bottom: 40px solid white;
+    border-right: 40px solid transparent;
+    top: 355px;
+    left: 130px;
+    transform: scale(1, 0);
+    transition-duration: 1.5s;
+    transform-origin: bottom;
+    transition-delay: 1s;
+}
+
+#ship {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 0;
+    transition: left 5s ease-in-out;
+    transition-delay: 2.5s;
+}

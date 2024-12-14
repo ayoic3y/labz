@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-rows: 100px 30px 300px;
+        grid-gap: 10px;
+      }
+      div {
+        border: 1px solid black;
+        width: 400px;
+      }
+      .g1 {
+        background: repeating-linear-gradient(to top,white,white 5%,black 5%,black 10%);
+      }
+      .g2 {
+        background: repeating-linear-gradient(45deg,white, white 1%,red 1%,red 2%);
+      }
+      .g3 {
+        background: repeating-radial-gradient(circle,black,black 2%,white 2%,white 4%);
+      }
+    </style>
+</head>
+<body>
+    <div class="g1"></div>
+    <div class="g2"></div>
+    <div class="g3"></div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            position: relative;
+        }
+       img {
+        width: 200px;
+        height: 200px;
+       }
+       .gr {
+        filter: grayscale();
+       }
+       .sep {
+        filter: sepia();
+       }
+       .inv {
+        filter: invert();
+       }
+       .sat {
+        filter: saturate(50%);
+       }
+       .satur {
+        position: absolute;
+        top: 0;
+        left: 450px;
+       }
+       div {
+        margin: 0;
+        padding: 0;
+       }
+       p {       
+        margin: 0;
+        padding: 0; 
+    }
+    .hue {
+        filter: hue-rotate(180deg);
+    }
+    .con {
+        filter: contrast(50%);
+    }
+    </style>
+</head>
+<body>
+    <p>filter: grayscale</p>
+    <img src="./barbara.jpg" alt="">
+    <img class="gr" src="./barbara.jpg" alt="">
+    <p>filter: sepia</p>
+    <img src="./barbara.jpg" alt="">
+    <img class="sep" src="./barbara.jpg" alt="">
+    <p>filter: invert</p>
+    <img src="./barbara.jpg" alt="">
+    <img class="inv" src="./barbara.jpg" alt="">
+    <div class="satur">
+    <p>filter: saturate</p>
+    <img src="./barbara.jpg" alt="">
+    <img class="sat" src="./barbara.jpg" alt="">
+    <p>filter: hue-rotate</p>
+    <img src="./barbara.jpg" alt="">
+    <img class="hue" src="./barbara.jpg" alt="">
+    <p>filter: contrast</p>
+    <img src="./barbara.jpg" alt="">
+    <img class="con" src="./barbara.jpg" alt="">
+    </div>
+</body>
+</html>

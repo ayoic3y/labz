@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;           
+            flex-direction: column;
+        }
+        textarea {
+            border: 1px solid black;
+            height: 100px;
+            width: 250px;
+            margin-bottom: 40px;
+        }
+        .both {
+            resize: both;
+        }
+        .none {
+            resize: none;
+        }
+        .hor {
+            resize: horizontal;
+        }
+        .ver {
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <textarea class="both">both</textarea>
+    <textarea class="none">none</textarea>
+    <textarea class="hor">horizontal</textarea>
+    <textarea class="ver">vertical</textarea>
+</body>
+</html>

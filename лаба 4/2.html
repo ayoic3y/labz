@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 200px;
+            grid-gap: 20px;
+        }
+        div {
+            border: 1px solid black;
+            height: 150px;
+            width: 150px;
+        }
+        .g1:hover {
+            cursor: pointer;
+        }
+        .g2:hover {
+            cursor: progress;
+        }
+        .g3:hover {
+            cursor: wait;
+        }
+        .g4:hover {
+            cursor: grab;
+        }
+        .g4:active {
+            cursor: grabbing;
+        }
+    </style>
+</head>
+<body>
+    <div class="g1">Наведите курсор</div>
+    <div class="g2">Наведите курсор</div>
+    <div class="g3">Наведите курсор</div>
+    <div class="g4">Наведите курсор</div>
+</body>
+</html>
